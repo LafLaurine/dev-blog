@@ -1,0 +1,22 @@
+{
+  "name": "dev-blog",
+  "version": "1.0.0",
+  "description": "Dev blog for my final project at IMAC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "next": "^9.5.3",
+    "raw-loader": "^4.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-markdown": "^4.3.1"
+  }
+}
