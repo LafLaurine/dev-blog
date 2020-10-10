@@ -37,7 +37,6 @@ function Writing({ content, data }) {
           </div>
 
           <div className="author">
-            <img src={avatar} />
             {author.name}
           </div>
 
