@@ -37,10 +37,8 @@ function Writing({ content, data }) {
           </div>
 
           <div className="author">
-            <a href={`https://twitter.com/${author.twitter}`} target="_blank" rel="noopener noreferrer nofollow">
-              <img src={avatar} />
-              {author.name}
-            </a>
+            <img src={avatar} />
+            {author.name}
           </div>
 
           <div className="writing-container">
