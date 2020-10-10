@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Dev blog for my final project at IMAC",
   "main": "index.js",
+  "engines": {
+    "npm": "6.13.4",
+    "node": "12.16.1"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
