@@ -11,3 +11,5 @@ npm install
 ```
 npm run dev
 ```
+
+Check the website [here](https://laurine-dev-blog.herokuapp.com/)
