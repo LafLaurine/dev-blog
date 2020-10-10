@@ -5,12 +5,17 @@
   "main": "index.js",
   "engines": {
     "npm": "6.13.4",
-    "node": "12.16.1"
+    "node": "12 .16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LafLaurine/dev-blog.git"
   },
   "scripts": {
     "dev": "next",
+    "start:dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next dev",
     "build:static": "next build && next export"
   },
   "author": "Laurine Lafontaine",
