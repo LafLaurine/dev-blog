@@ -1,6 +1,6 @@
 ---
 title: "Ressources"
-date: "2020-10-10"
+date: "2020-10-12"
 og:
   description: "Tab ressources"
   image: ""
