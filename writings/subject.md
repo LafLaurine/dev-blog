@@ -25,7 +25,7 @@ But there was a  problem! **I sucked at algorithms!** But I liked it so much, th
 
 After two years of university, I got into an engineering school. I, who didn't think I was that good, managed to make my way between math and programming classes. I learned C, C++, OpenGL and so many other skills in this school.
 
-Thanks to the projects I did, I was able to have this appetence that I have today: deep learning! Wow, what a surprise! I already knew about python before I started in this field and once I set foot in it, I never wanted to get out of it.
+Thanks to the projects I did, I was able to have this appetence that I have today: deep learning! Wow, what a surprise! I already knew about python before I started in this field and once I set a foot in it, I never wanted to get out of it.
 The field of artificial intelligence is very vast and you can quickly get lost in it. But I kept my head above water and here I am now. I'm going to devote part of my last year to a **deep learning project**. BECAUSE I LOVE IT.
 
 <div style="text-align:center"><img src="https://media.giphy.com/media/SSirUu2TrV65ymCi4J/source.gif"/></div>
@@ -33,7 +33,7 @@ The field of artificial intelligence is very vast and you can quickly get lost i
 
 I will soon start to be fully involved in this project. Anyway, why am I doing this project in the last year? Well, we have to do one in order to validate our last year (easy right?). As I'm doing a double degree (engineering degree and master one), I have to do two projects. But as I'm not crazy and there are other projects on the side, we have the opportunity to combine the two projects if it's big enough. For the engineering degree, we have to stay in the field of 3D and image, as it is our specialty. The master's degree is specialized in image processing, so we have to stay in this field.
 
-What does it mean? No NLP! The deep learning that I want to use must therefore focus on the field of image and computer vision, as in the early days of the deep learning.
+What does it mean? My work must therefore focus on the field of image and computer vision, as in the early days of the deep learning.
 
 ## What I want to become
 
@@ -42,7 +42,6 @@ After my degree, I want to work in the deep learning field. Why ? Because I had 
 ## The project itself
 
 As I'm fond of deep learning, I already made some application with it. As I was saying earlier, my project must stay in the image field. I would like to focus on image denoising. 
-
 The goal would be to automate noise processing (by training a neural network), using two main algorithms: Chambolle and Nesterov.
 
 As I am also interested in image reconstruction, I asked one of my teacher what to do. 
