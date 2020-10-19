@@ -15,7 +15,7 @@ author:
 That's it. This is the last year of studies. I've come a long way! 
 At the very beginning of my studies, I wanted to focus on graphic design and I was programming without any special predilection for it.
 As more as I was programming, I found myself really happy and understanding things that I never thought I would. 
-But there was a  problem! **I sucked at algorithms!** But I liked it so much, that even if I ran into a wall, I kept going. 
+But there was a  problem. **I sucked at algorithms!** But I liked it so much, that even if I ran into a wall, I kept going. 
 
 
 <div style="text-align:center"><img src="https://media.giphy.com/media/mGPYIgOrNEGIqtd8FP/source.gif"/></div>

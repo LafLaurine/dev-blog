@@ -24,6 +24,7 @@ author:
 Well, one of my friend, [Jérôme Milot](https://www.linkedin.com/in/milotjerome/?originalSubdomain=fr) is an editor at *La Revue IA*. He's currently studying at ENS Rennes (yeah I know, he's quite impressive). One day, I checked on social media and I discovered the [facebook page](https://www.facebook.com/Larevueia/) of *La Revue IA*. In litteraly five minutes, I was hooked up by the project. 
 
 [Ilyes Talbi](https://www.linkedin.com/in/ilyes-talbi-ba2451135/?originalSubdomain=fr), the founder, spend a lot of his time to write understandable and interesting articles. He had the opportunity to go to AI Paris Corp and he did a [report](https://larevueia.fr/compte-rendu-de-lai-et-big-data-paris-corp/).
+You'll see, this website has everything you want !
 
 ## Some of my favorite articles :
 
