@@ -66,10 +66,28 @@ Neural Networks consist of the following components :
 * a set of weights and biases between each layer
 * an activation function for each hidden layer (sigmoid activation function, ReLU, etc.)
 
-## Sixth step : training neural network
+The model depends on the type of algorithm you do. A model isn't the same for image interpolation or detecting deepfake.
+
+There is actually multiple type of common neural netwok : CNN, GAN or RNN. As I was saying, the type of neural network you use depends on what you want to do with it. That means that your neural network can have different layers that the example you were taking code from.
+
+## Sixth step : training neural networks
+
+<div style="text-align:center"><img src="https://media.giphy.com/media/3oriNZoNvn73MZaFYk/giphy.gif"/></div> </br>
 
 After creating the neural network model, you need to train it.
+For the neural network, we have initial data, for which we know the output of the network. We want parameters of our network to minimize the gap between the expected output and the actual output (the one provided by the neural network). This gap can be calculated by the error of the least squares or other error metrics. This is the **loss function**. The aim is to **optimise this loss function**. The training of the network is a search for the biases and weights which minimise the loss function.
+
+We often use the gradient descent method in order to optimize the loss. For this method, calculations of partial derivatives of the loss function are necessary.
+
+Don't forget backpropagation, that is a technique to improve the performance of the network. It backpropagates the error and updates the weights to reduce the error.
+
+When you think your neural network is trained enough (i.e : you have the result that you want), you can save it and use it !
 
 ## Last step : playing with your application
 
-Finally ! You've done it, you created a deep learning application. You can now start to play with it and see what is bugging and what you can improve.
+Finally ! You've done it, you created a deep learning application. You can now start to play with it and see what is bugging and what you can improve. 
+Have other people test it too, to see if they find artifacts you haven't seen.
+
+You can be proud of you, you've succeed to build a deep learning app !
+
+<div style="text-align:center"><img src="https://media.giphy.com/media/aWRWTF27ilPzy/giphy.gif"/></div> </br>
