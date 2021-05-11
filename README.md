@@ -1,6 +1,6 @@
-# NextJS Blog
+# NextJS dev blog
 
-> Dev blog for my final year at IMAC
+> Dev blog for my final year at IMAC, presenting my project about denoising and describing images with deep learning
 
 Run:
 

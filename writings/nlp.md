@@ -19,6 +19,3 @@ basically, vocal assistant and chatbot use NLP. NLP as a standalone deals with h
 In the same way that an image is represented by a matrix of values representing colour shades, a word will be represented by a large vector, this is called word embedding.
 
 NLP use 2 techniques : syntactic analysis and semantic analysis
-<!--
-<div style="text-align:center"><img src="https://media.giphy.com/media/ToMjGpNuOksUiclTp4c/giphy.gif"/></div>
-<div style="text-align:center"><img src="https://media.giphy.com/media/igDIvcIMMGIne/giphy.gif"/></div>--> 

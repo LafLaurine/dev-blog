@@ -65,7 +65,8 @@ That's my 6 months challenge : been able to construct an application that allows
 
 <div style="text-align:center"><img src="https://media.giphy.com/media/DpB9NBjny7jF1pd0yt2/giphy.gif"/></div>
 
-                      I can't wait to start this journey
-
+<div style="text-align:center">
+I can't wait to start this journey
+</div></br>
 
 <div style="text-align:center"><h2>SHALL WE BEGIN ?</h2></div>

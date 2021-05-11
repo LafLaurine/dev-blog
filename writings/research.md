@@ -9,9 +9,11 @@ author:
 ---
 
 <div style="width:30%"><img src="https://img.shields.io/static/v1?label=last-modified&message=10 may&color=orange"></div>
- </br>
+</br>
 
 ## Why researcher code is hard to read ?
+
+First of all, when we speak about researcher in the field of artificial intelligence, I immediatly think about their code. Why ? Well, first because it is not always common to acceed to open source code and second, because it is hard to read and understand properly. In this article, I will try to understand why and explain it.
 
 the key performance indicators are all about paper publications, need to be first to publish your innovative paper, don't have time to clean everything. The code is just proof-of-concepts
 
@@ -32,3 +34,8 @@ I take between 2 to 3 hours to read a paper, when it is not a huge one. It may h
 Start reading the abstract to have an overview of the topic and understand what the authors are doing. Then, read the introduction because it will give you a larger overview of the project.
 Read the conclusion, it will summarize everything that has been written in the paper, it is relevant to understand why and how they did what they did.
 The choice is yours for the rest, you can read results and the methodology or do the opposite. With this, you can understand better how authors did their job and what results they obtained. You can add it to your benchmark and even test it if they provide the source code.
+
+<div style="text-align:center">
+<img src="../public/img/type_of_ML_paper.jpg"/></br>
+<i>Type of machine learnings papers according to a reddit user</i>
+</div>
