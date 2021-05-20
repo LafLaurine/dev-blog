@@ -13,13 +13,11 @@ author:
 
 ## Why researcher code is hard to read ?
 
-First of all, when we speak about researcher in the field of artificial intelligence, I immediatly think about their code. Why ? Well, first because it is not always common to acceed to open source code and second, because it is hard to read and understand properly. In this article, I will try to understand why and explain it.
+First of all, when we speak about research in the field of artificial intelligence, I immediatly think about code. Why ? Well, first because it is not always common to acceed to open source code and second, because it is sometimes hard to read and understand properly. In this article, I will try to understand why and explain it.
 
-the key performance indicators are all about paper publications, need to be first to publish your innovative paper, don't have time to clean everything. The code is just proof-of-concepts
+Key performance indicators for researchers are all about paper publications. You need to be the first to publish your innovative paper, you don't have time to clean everything. The code provided is just proof-of-concepts.
 
-most researchers are not programmers !! or they're specialized in 1 language  --> not realizing when refactoring is necessary  no introduction to computer programming 
-
-don't get support when needed
+Remember that most researchers are not programmers ! Or they're specialized in one language, which can be another one that the one they're programing in. They might not realize when refactoring is necessary.
 
 early stage of deep learning, not really documentation
 
