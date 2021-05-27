@@ -2,7 +2,7 @@
 title: "Ressources"
 date: "2020-10-12"
 og:
-  description: "Tab ressources"
+  description: "All of my ressources for the personal project"
   image: ""
 author:
   name: "Laurine Lafontaine"
