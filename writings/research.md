@@ -19,12 +19,15 @@ When you read a research paper, you need to be **active**. You need to write dow
 
 I take between **3 to 4 hours** to read a paper, when it is not a huge one. It may happend that I take a day to read only one paper. And don't start mentionning thesis... I took an entire day to read a 300 pages one the other day and my head is still burning. 
 
-Start reading the abstract to have an overview of the topic and understand what the authors are doing. Then, read the introduction because it will give you a larger overview of the project. Read the conclusion, it will summarize everything that has been written in the paper. It is relevant to understand why and how they did what they did. The choice is yours for the rest, you can read results and the methodology or do the opposite. With this, you can understand better how authors did their job and what results they obtained. You can add it to your benchmark and even test it if they provide the source code.
+Start reading the **abstract** to have an overview of the topic and understand what the authors are doing. Then, read the **introduction** because it will give you a larger overview of the project. Read the **conclusion**, it will summarize everything that has been written in the paper. It is relevant to understand why and how they did what they did. The choice is yours for the end of the reading, you can read results and the methodology or do the opposite. With this, you can understand better how authors did their job and what results they obtained. You can add it to your benchmark and even test it if they provide the source code. 
+Who knows, you could also contribute to the research project!
 
 <div style="text-align:center">
 <img src="../public/img/type_of_ML_paper.jpg"/></br>
 <i>Type of machine learnings papers according to a reddit user</i>
 </div>
+
+As the funny image is saying above, certain papers are most likely out to present why their paper is better. Which is quite normal, because for whatelse reason their paper should be out? 
 
 ## Why researcher code is hard to read ?
 
