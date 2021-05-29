@@ -5,7 +5,7 @@ import Link from 'next/link'
 const avatar = `https://avatars2.githubusercontent.com/u/30570842?s=460&u=9fcf4675ee5015af27ca8843cfee7e9a15528a18&v=4`
 
 function Layout({ children, isHomepage, secondaryPage }) {
-  const salut = "Welcome"
+  const salut = "A dev blog about my personal project"
 
   const containerProps = {
     ...isHomepage && { md: 12 },
@@ -40,7 +40,7 @@ function Layout({ children, isHomepage, secondaryPage }) {
                 </h1>
 
                 <p className="entry-description">
-                  Dev journey of my deep learning project
+                  Development journey of my deep learning project, including denoising and an image descriptor
                 </p>
               </div>
             )}
