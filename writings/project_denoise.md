@@ -55,7 +55,7 @@ My dataset is a clear one, so I didn't have any noisy images to test on.
 As I wanted to have total control on my data, the first thing I did is applying noise to my dataset. As the model of denoising was trained with different data, it's no problem if I proceed that way. 
 
 <div style="text-align:center">
-<img src="../public\img\real_img.jpg"/></br>
+<img src="../img/real_img.jpg"/></br>
 <i>Example of cleared image from Flicker dataset</i>
 </div>
 </br>
@@ -99,7 +99,7 @@ for root, dirs, files in os.walk('../dataset/FlickerImages'):
 As you can see with the snippet of code above, we apply a custom gaussian noise on the image.
 
 <div style="text-align:center">
-<img src="../public\img\noisy_img.jpg"/></br>
+<img src="../img/noisy_img.jpg"/></br>
 <i>Noisy version of the image</i>
 </div>
 </br>
@@ -114,7 +114,7 @@ Bascially, a UNet, which is a convolutional network architecture for fast and pr
 Stride controls how the filter convolves around the input volume and the transpose convolution is a process which can be thought of as doing the opposite of a normal convolution. This is done by maintaining the connectivity pattern and is mainly used in upsampling. 
 
 <div style="text-align:center">
-<img src="../public\img\denoised_img.jpg"/></br>
+<img src="../img/denoised_img.jpg"/></br>
 <i>Result of the denoised image</i>
 </div>
 </br>

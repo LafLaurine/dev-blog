@@ -1,6 +1,6 @@
 ---
 title: "Project : NLP"
-date: "2021-05-27"
+date: "2021-05-30"
 og:
   description: "Explanation of the first step of the project"
 author:

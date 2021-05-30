@@ -33,7 +33,7 @@ Remember that most researchers are not programmers ! Or they're specialized in o
 In fact, at the early stage of deep learning, there was not really documentation on how to build a good model or how to write efficient code in Python with Tensorflow, PyTorch or whatever other library.
 
 <div style="text-align:center">
-<img src="../public/img/type_of_ML_paper.jpg"/></br>
+<img src="../img/type_of_ML_paper.jpg"/></br>
 <i>Type of machine learnings papers according to a reddit user</i>
 </div>
 </br>
