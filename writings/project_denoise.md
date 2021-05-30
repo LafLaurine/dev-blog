@@ -1,6 +1,6 @@
 ---
 title: "Project : Denoise"
-date: "2021-05-27"
+date: "2021-05-29"
 og:
   description: "Explanation of the second step of the project, which is denoising an image"
 author:
@@ -26,8 +26,27 @@ For the denoising part, I wanted to use a code that was implemented by researche
 
 Their source code can be found on this [Github project](https://github.com/cszn/DPIR).
 
-After reading different papers, I thought that this approach was great, as they present different modules. The image denoising is used to these other modules.
-This is a Gaussian denoiser and an upgrade of [FFDNet: Toward a Fast and Flexible Solution for CNN based Image Denoising](https://ieeexplore.ieee.org/abstract/document/8365806)
+After reading different papers, I thought that this approach was great, as they present different modules. The image denoising is used to these other modules. 
+This is a Gaussian denoiser and an upgrade of [FFDNet: Toward a Fast and Flexible Solution for CNN based Image Denoising](https://ieeexplore.ieee.org/abstract/document/8365806). As the method is recent, I decided to use it.
+
+
+## Set up the environment
+
+```
+pip install scipy 
+pip install numpy
+pip install scikit-image
+pip install opencv-python
+```
+
+For PyTorch, it is better to follow the installation on their website, as it depends on CUDA and Linux/Windows : [Installing PyTorch](https://pytorch.org/)
+
+To get the Flicker dataset, you must run the following command : \
+`wget https://drive.google.com/uc?export=download&id=1yBlN1CnaMwFvwoW_jjwqPsNDVOZVw4nu`
+
+`wget https://drive.google.com/uc?export=download&id=1yBar0ywvinwf_ZfjtntxYNqmLw-cxzzu`\ 
+It will give you the trained model for the denoising, so you must put it in ./denoise/model
+
 
 ## Preprocessing data
 
@@ -87,15 +106,24 @@ As you can see with the snippet of code above, we apply a custom gaussian noise 
 
 ## Denoising the image
 
+As we use the Plug-and-Play Image Restoration with Deep Denoiser Prior, we follow their construction of the denoiser.
+
+You will find thte denoising part in the file `denoising.py`
+
+Bascially, a UNet, which is a convolutional network architecture for fast and precise segmentation of images has been trained to denoise images. The downsample mode is set to stride convolution and the upsample to transpose.
+Stride controls how the filter convolves around the input volume and the transpose convolution is a process which can be thought of as doing the opposite of a normal convolution. This is done by maintaining the connectivity pattern and is mainly used in upsampling. 
+
 <div style="text-align:center">
 <img src="../public\img\denoised_img.jpg"/></br>
-<i>Image denoised</i>
+<i>Result of the denoised image</i>
 </div>
 </br>
 
 ## Compare
 
 There is two measures that are important when it comes to measuring the quality of image reconstruction : **Peak Signal To Noise Ratio (PSNR)** and **Structural Similarity (SSIM)**.
+
+You will find the comparison in the file `compare.py`.
 
 To compute the PSNR, we will use the formula below : 
 
@@ -111,7 +139,9 @@ PSNR=10log_{10}(\frac{R^2}{{MSE}})
 $$
 where $R$ is the maximum fluctuation in the input image data type As the input image has a double-precision floating-point data type, R is 1. The MSE is the Mean Square Error.
 
-Unlike PSNR, SSIM is based on visible structures in the image. For the computation, I use the function written in `skimage.metrics`, which is documented in [scikit-images.org](https://scikit-image.org/docs/dev/auto_examples/transform/plot_ssim.html) and is called with 
+If the PSNR value is low, it means that the image quality is poor. Higher PSNR generally indicates the reconstruction method is of higher quality but if your score is above 30 to 50 dB, it is acceptable.
+
+Unlike PSNR, SSIM is based on visible structures in the image. For the computation, I use the function written in `skimage.metrics`, which is documented in [scikit-images.org](https://scikit-image.org/docs/dev/auto_examples/transform/plot_ssim.html) and is called with `structural_similarity`
 
 ```python
 
@@ -129,3 +159,9 @@ where :
 - `multichannel` : if True, treat the last dimension of the array as channels. 
 - `gaussian_weights` : if True, each patch has its mean and variance spatially weighted by a normalized Gaussian kernel of width sigma=1.5.
 - `full` : if True, also return the full structural similarity image.
+
+The SSIM values ranges between 0 to 1, 1 means perfect match the reconstruct image with original one. Generally SSIM values 0.97, 0.98, 0.99 for good quallty recontruction techniques.
+
+For instance, for our example, we have a **PSNR** of **20 dB** and a **SSIM** of **0.6**, which means that our model needs to be trained more !
+
+I hope that you will denoise your own image ! And don't forget, deep learning is all about that : testing and adjusting your model, to have the needed results.
