@@ -20,7 +20,7 @@ function Layout({ children, isHomepage, secondaryPage }) {
             <ul>
               <li className="logo">
                 <Link href="/" as="/">
-                  <a href="https://github.com/LafLaurine" target="_blank">
+                  <a href="https://github.com/LafLaurine/imac3-personal-project" target="_blank">
                     <img src={avatar} />
                   </a>
                 </Link>

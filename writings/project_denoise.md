@@ -41,17 +41,15 @@ pip install opencv-python
 
 For PyTorch, it is better to follow the installation on their website, as it depends on CUDA and Linux/Windows : [Installing PyTorch](https://pytorch.org/)
 
-To get the Flicker dataset, you must run the following command : \
-`wget https://drive.google.com/uc?export=download&id=1yBlN1CnaMwFvwoW_jjwqPsNDVOZVw4nu`
+To get the Flicker dataset, you must run the following command :
+`wget https://drive.google.com/uc?export=download&id=1yBlN1CnaMwFvwoW_jjwqPsNDVOZVw4nu` and put in in the directory `./dataset`
 
-`wget https://drive.google.com/uc?export=download&id=1yBar0ywvinwf_ZfjtntxYNqmLw-cxzzu`\ 
-It will give you the trained model for the denoising, so you must put it in ./denoise/model
-
+Then, you must get the trained model for the denoising and put it in  `./denoise/model` : 
+`wget https://drive.google.com/uc?export=download&id=1yBar0ywvinwf_ZfjtntxYNqmLw-cxzzu`
 
 ## Preprocessing data
 
 My dataset is a clear one, so I didn't have any noisy images to test on.
-
 As I wanted to have total control on my data, the first thing I did is applying noise to my dataset. As the model of denoising was trained with different data, it's no problem if I proceed that way. 
 
 <div style="text-align:center">
@@ -134,10 +132,11 @@ def calc_psnr(img1, img2):
 
 Which corresponds well to the equation : 
 
-$$
-PSNR=10log_{10}(\frac{R^2}{{MSE}})
-$$
-where $R$ is the maximum fluctuation in the input image data type As the input image has a double-precision floating-point data type, R is 1. The MSE is the Mean Square Error.
+```
+PSNR=10log(R^2/MSE)
+```
+
+where R is the maximum fluctuation in the input image data type. As the input image has a double-precision floating-point data type, R is 1. The MSE is the Mean Square Error.
 
 If the PSNR value is low, it means that the image quality is poor. Higher PSNR generally indicates the reconstruction method is of higher quality but if your score is above 30 to 50 dB, it is acceptable.
 

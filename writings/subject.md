@@ -68,5 +68,3 @@ That's my 6 months challenge : been able to construct an application that allows
 <div style="text-align:center">
 I can't wait to start this journey
 </div></br>
-
-<div style="text-align:center"><h2>SHALL WE BEGIN ?</h2></div>
